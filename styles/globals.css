@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+section {
+  max-width: 99rem;
+  padding: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background-color: #1b262c;
+    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/image-197.png);
+    background-position: -33px 91px;
+    background-repeat: no-repeat;
+  }
+}
