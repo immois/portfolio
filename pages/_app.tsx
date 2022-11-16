@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <style jsx global>{`
         html {
-          font-family: ${calibre.style.fontFamily};
+          font-family: ${calibre.style.fontFamily}, sans-serif;
         }
       `}</style>
       <Component {...pageProps} />
