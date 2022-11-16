@@ -9,7 +9,7 @@ const Title = ({ text }: TitleProps) => {
 
       <style jsx>{`
         h2 {
-          color: #3f48cc;
+          color: var(--color-primary);
           font-size: var(--fz-lg);
           font-weight: 500;
           margin-bottom: 2.6rem;

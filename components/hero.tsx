@@ -43,7 +43,7 @@ const Hero = () => {
           margin-bottom: 1.5rem;
           font-size: clamp(var(--fz-prof-md), 6vw, var(--fz-prof-xl));
           line-height: 0.9;
-          color: #3f48cc;
+          color: var(--color-primary);
           font-weight: 500;
         }
 
