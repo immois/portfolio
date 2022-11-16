@@ -11,10 +11,10 @@ const SubTitle = ({ text, center = false }: SubTitleProps) => {
         h3 {
           max-width: 45rem;
           margin-bottom: 5rem;
-          font-size: clamp(2.5rem, 5vw, 5rem);
+          font-size: clamp(var(--fz-lg), 5vw, var(--fz-xl));
           line-height: 0.9;
           font-weight: 600;
-          color: #e3e3e3;
+          color: var(--color-white);
           text-align: ${center ? "center" : "left"};
         }
       `}</style>
