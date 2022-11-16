@@ -1,3 +1,21 @@
+:root {
+  --color-primary: #3f48cc;
+  --color-white: #e3e3e3;
+  --color-gray: #9c9fb7;
+
+  --fz-xxs: 1.6rem;
+  --fz-xs: 1.8rem;
+  --fz-sm: 2rem;
+  --fz-md: 2rem;
+  --fz-lg: 2.5rem;
+  --fz-xl: 5rem;
+  --fz-xxl: 6rem;
+  --fz-name-md: 8rem;
+  --fz-name-xl: 12rem;
+  --fz-prof-md: 12rem;
+  --fz-prof-xl: 12rem;
+}
+
 html,
 body {
   padding: 0;
@@ -24,12 +42,19 @@ p {
 }
 
 section {
-  max-width: 99rem;
-  padding: 10rem 0;
+  max-width: 55rem;
+  padding: 8rem 2.4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  section {
+    max-width: 99rem;
+    padding: 10rem 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +64,7 @@ section {
   body {
     color: white;
     background-color: #1b262c;
-    background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/image-197.png);
+    /* background-image: url(https://n.foxdsgn.com/deva/wp-content/uploads/2021/01/image-197.png); */
     background-position: -33px 91px;
     background-repeat: no-repeat;
   }
