@@ -6,15 +6,25 @@ const rubik = localFont({
 
 interface ButtonProps {
   text: string;
+  email?: string;
 }
 
-const Button = ({ text }: ButtonProps) => {
+const Button = ({ text, email }: ButtonProps) => {
+  const handleClick = () => {
+    const isEmail = Boolean(email);
+    if (isEmail) {
+      window.location.href = `mailto:${email}`;
+    }
+  };
+
   return (
     <>
-      <button type="button">{text}</button>
+      <button type="button" className="button" onClick={handleClick}>
+        {text}
+      </button>
 
       <style jsx>{`
-        button {
+        .button {
           min-width: 18rem;
           background-color: transparent;
           padding: 0;
@@ -23,7 +33,7 @@ const Button = ({ text }: ButtonProps) => {
           cursor: pointer;
           transition: all 0.3s 0s;
           background-color: var(--color-primary);
-          color: var(--color-white);
+          color: var(--white);
           padding: 1.6rem 2.6rem;
           border-radius: 1.6rem;
           font-size: clamp(1.6rem, 2vw, 1.7rem);
@@ -31,7 +41,7 @@ const Button = ({ text }: ButtonProps) => {
           font-family: ${rubik.style.fontFamily}, sans-serif;
         }
 
-        button:active {
+        .button:active {
           transform: scale(0.95);
         }
       `}</style>
