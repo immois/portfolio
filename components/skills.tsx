@@ -44,6 +44,15 @@ const Skills = () => {
         </div>
         <div className="skills-heading">
           <SubTitle text="Conjunto esenciales de habilidades técnicas." />
+          <p>
+            Mis principales skills frontend, desde el proceso de configuración
+            con herramientas como Webpack hasta el manejo de frameworks como
+            Next.js
+            <br />
+            <br />
+            Dominando también los principales skills de backend como Node.js y
+            sus principales ORMs.
+          </p>
         </div>
         <div className="skills-gallery">
           {iconsSkills.map((item) => {
@@ -51,7 +60,7 @@ const Skills = () => {
               <figure key={item}>
                 <Image
                   src={`/icons-skills/${item}.svg`}
-                  alt={item}
+                  alt=""
                   width={40}
                   height={40}
                 />
@@ -67,6 +76,11 @@ const Skills = () => {
           display: grid;
           grid-template-columns: 1fr;
           grid-template-rows: auto 1fr;
+        }
+
+        .skills-heading p {
+          font-size: clamp(var(--fz-xs), 2vw, var(--fz-md));
+          color: var(--color-gray);
         }
 
         .skills-gallery {
