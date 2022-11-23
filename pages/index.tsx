@@ -25,9 +25,7 @@ export default function Home({
   return (
     <>
       <Head>
-        <title>
-          {title} | {career}
-        </title>
+        <title>{`${title} | ${career}`}</title>
         <meta
           name="description"
           content="Desarrollador de software en Lima,Perú con más de 3 años
