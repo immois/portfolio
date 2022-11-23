@@ -9,8 +9,8 @@
   --fz-xxs: 1.6rem;
   --fz-xs: 1.8rem;
   --fz-sm: 2rem;
-  --fz-md: 2rem;
-  --fz-lg: 2.5rem;
+  --fz-md: 2.5rem;
+  --fz-lg: 3.7rem;
   --fz-xl: 5rem;
   --fz-xxl: 6rem;
   --fz-name-md: 8rem;
@@ -19,11 +19,15 @@
   --fz-prof-xl: 6rem;
 }
 
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 10px;
 }
 
 a {
@@ -51,6 +55,10 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+}
+
+.flow-hidden {
+  overflow: hidden;
 }
 
 @media (min-width: 1000px) {
