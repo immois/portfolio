@@ -1794,7 +1794,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@svgr/webpack@npm:^6.5.1":
+"@svgr/webpack@npm:6.5.1":
   version: 6.5.1
   resolution: "@svgr/webpack@npm:6.5.1"
   dependencies:
@@ -1888,7 +1888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/sharp@npm:^0":
+"@types/sharp@npm:0.31.0":
   version: 0.31.0
   resolution: "@types/sharp@npm:0.31.0"
   dependencies:
@@ -4549,17 +4549,17 @@ __metadata:
   resolution: "portfolio@workspace:."
   dependencies:
     "@next/font": 13.0.1
-    "@svgr/webpack": ^6.5.1
+    "@svgr/webpack": 6.5.1
     "@types/node": 18.11.9
     "@types/react": 18.0.25
     "@types/react-dom": 18.0.8
-    "@types/sharp": ^0
+    "@types/sharp": 0.31.0
     eslint: 8.27.0
     eslint-config-next: 13.0.2
     next: 13.0.2
     react: 18.2.0
     react-dom: 18.2.0
-    sharp: ^0.31.2
+    sharp: 0.31.2
     typescript: 4.8.4
   languageName: unknown
   linkType: soft
@@ -4945,7 +4945,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.31.2":
+"sharp@npm:0.31.2":
   version: 0.31.2
   resolution: "sharp@npm:0.31.2"
   dependencies:
