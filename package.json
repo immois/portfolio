@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.1"
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }
