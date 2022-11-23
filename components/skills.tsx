@@ -79,8 +79,9 @@ const Skills = () => {
         }
 
         .skills-heading p {
-          font-size: clamp(var(--fz-xs), 2vw, var(--fz-md));
+          font-size: var(--fz-sm);
           color: var(--color-gray);
+          margin-bottom: 9rem;
         }
 
         .skills-gallery {

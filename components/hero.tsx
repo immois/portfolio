@@ -9,9 +9,9 @@ const Hero = () => {
           <h2>Frontend Developer</h2>
         </div>
         <p>
-          Soy un desarrollador de software especializado en el desarrollo del
-          lado del cliente, construyendo aplicaciones web con React.js.
-          Actualmente estoy enfocado en crear productos accesibles.
+          Soy un desarrollador de software con conocimientos sólidos en
+          frontend, construyendo aplicaciones web con React.js. Actualmente
+          estoy enfocado en crear productos accesibles.
         </p>
         <div className="hero-actions">
           <Button text="Contactar" />
@@ -21,7 +21,7 @@ const Hero = () => {
       <style jsx>{`
         .hero {
           width: 100%;
-          min-height: 90vh;
+          min-height: calc(96vh - 8rem);
           align-items: flex-start;
         }
 
@@ -49,7 +49,7 @@ const Hero = () => {
 
         p {
           max-width: 60rem;
-          font-size: clamp(1.8rem, 2vw, 2rem);
+          font-size: var(--fz-sm);
           color: #9c9fb7;
         }
 

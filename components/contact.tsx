@@ -22,7 +22,7 @@ const Contact = () => {
         .contact p {
           max-width: 45rem;
           margin-bottom: 9rem;
-          font-size: var(--fz-md);
+          font-size: var(--fz-sm);
           color: var(--color-gray);
         }
       `}</style>
